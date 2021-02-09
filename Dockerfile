@@ -1,6 +1,6 @@
-FROM scolagreco/centos-java:1.15.0.2
+FROM scolagreco/centos-java:1.11.0.2
 
-ENV JETTY_VERSION 11.0.0
+ENV JETTY_VERSION 9.4.36.v20210114
 ENV JETTY_HOME /opt/jetty-home
 ENV JETTY_BASE /opt/jetty-base
 ENV TMPDIR /tmp/jetty
@@ -26,7 +26,7 @@ RUN mkdir -p "$JETTY_HOME" \
 
 # Metadata params
 ARG BUILD_DATE
-ARG VERSION="11.0.0"
+ARG VERSION="9.4.36.v20210114"
 ARG VCS_URL="https://github.com/scolagreco/centos-jetty.git"
 ARG VCS_REF
 
