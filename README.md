@@ -15,5 +15,5 @@ Basata sulle [immagini ufficiali](https://github.com/eclipse/jetty.docker/tree/6
 ## Versions
 
 - CentOS 7 (ultima release)
-- Java openjdk-11.0.2
+- Java openjdk-15.0.2
 - Jetty 9.4.36.v20210114

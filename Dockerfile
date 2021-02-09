@@ -1,4 +1,4 @@
-FROM scolagreco/centos-java:1.11.0.2
+FROM scolagreco/centos-java:1.15.0.2
 
 ENV JETTY_VERSION 9.4.36.v20210114
 ENV JETTY_HOME /opt/jetty-home
